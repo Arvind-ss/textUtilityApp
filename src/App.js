@@ -5,7 +5,6 @@ import TextForm from "./Components/TextForm";
 import About from "./Components/About";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import AboutDeveloper from "./Components/AboutDeveloper";
 
 function App() {
   const [mode, setmode] = useState("light");
@@ -24,12 +23,7 @@ function App() {
       showAlert(" Light Mode is Active", "success ");
     }
   };
-  // Dark Shade
-  let toogleShade = (shade) => {
-    if (mode === "dark") {
-      document.body.style.backgroundColor = shade;
-    }
-  };
+  
 
   //Alert
   const showAlert = (message, type) => {
