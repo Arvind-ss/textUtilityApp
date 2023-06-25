@@ -29,14 +29,7 @@ export default function About(props) {
             
           >
             <div className="accordion-body" >
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+             TextUtils is a web-based text utility tool built using React JS. It offer a user-friendly interface and efficient performance. It allows users to edit, format, manipulate and convert text.
             </div>
           </div>
         </div>
@@ -52,7 +45,7 @@ export default function About(props) {
               style ={{backgroundColor:props.mode==='dark'? '#1F3E34':'white',color:props.mode==='dark'? 'White':'Black'}}
 
             >
-              <h4> Accordion Item #2 </h4>
+              <h4> About Developer </h4>
             </button>
           </h2>
           <div
@@ -61,14 +54,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Hi I'm Aravind <strong> Sketch,Design,Develop </strong> things for web. I'm passionate about bringing both the technical and visual aspects of digital products to life. User experience, beautiful pixels and writing clean accessible, human code matters to me.
             </div>
           </div>
         </div>
