@@ -19,7 +19,7 @@ export default function About(props) {
               aria-controls="collapseOne"
               style ={{backgroundColor:props.mode==='dark'? '#1F3E34':'white',color:props.mode==='dark'? 'White':'Black'}}
             >
-              <h4> Accordion Item #1 </h4>
+              <h4> About App </h4>
             </button>
           </h2>
           <div
@@ -54,7 +54,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              Hi I'm Aravind <strong> Sketch,Design,Develop </strong> things for web. I'm passionate about bringing both the technical and visual aspects of digital products to life. User experience, beautiful pixels and writing clean accessible, human code matters to me.
+              Hi I'm Aravind, I <strong> Sketch,Design,Develop </strong> things for web. I'm passionate about bringing both the technical and visual aspects of digital products to life. User experience, beautiful pixels and writing clean accessible, human code matters to me.
             </div>
           </div>
         </div>
