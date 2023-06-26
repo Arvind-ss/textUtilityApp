@@ -19,7 +19,7 @@ export default function About(props) {
               aria-controls="collapseOne"
               style ={{backgroundColor:props.mode==='dark'? '#1F3E34':'white',color:props.mode==='dark'? 'White':'Black'}}
             >
-              <h4> About App </h4>
+              <h4> Analyze Your Text </h4>
             </button>
           </h2>
           <div
@@ -29,7 +29,7 @@ export default function About(props) {
             
           >
             <div className="accordion-body" >
-             TextUtils is a web-based text utility tool built using React JS. It offer a user-friendly interface and efficient performance. It allows users to edit, format, manipulate and convert text.
+             TextUtils is a web-based text utility tool built using React JS. It offer a user-friendly interface and efficient performance. It allows users to edit, format, manipulate and analyze your text quickly and efficiently.
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function About(props) {
               style ={{backgroundColor:props.mode==='dark'? '#1F3E34':'white',color:props.mode==='dark'? 'White':'Black'}}
 
             >
-              <h4> About Developer </h4>
+              <h4> Free to use </h4>
             </button>
           </h2>
           <div
@@ -54,7 +54,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              Hi I'm Aravind, I <strong> Sketch,Design,Develop </strong> things for web. I'm passionate about bringing both the technical and visual aspects of digital products to life. User experience, beautiful pixels and writing clean accessible, human code matters to me.
+              TextUtils is a free character counter tool that provides instant chracter count & word count statistics for a given text. TextUtils reports the number of words and character .thus it is suitable for writing text with word/character.Thus it is suitable for writing text with word/character limit.
             </div>
           </div>
         </div>
